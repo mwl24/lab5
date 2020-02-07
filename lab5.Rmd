@@ -1,6 +1,6 @@
 ---
 title: "Lab 5"
-author: "Shawn Santo"
+author: "Michael Li"
 date: "02-07-20"
 output: 
   html_document:
@@ -54,6 +54,11 @@ senators <- fromJSON(paste(readLines(json_file), collapse = ""))
 
 3. Write a loop that prints the twitter ID for each senator in the leadership, 
    i.e. where `leadership_title` is not null.
+   
+```{r}
+senators$objects[[1]]
+```
+
 
 *****
 
